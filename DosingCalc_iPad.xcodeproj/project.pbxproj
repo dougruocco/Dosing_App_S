@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1532286718C7D6F400B4B23B /* Email_Button_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1532286618C7D6F400B4B23B /* Email_Button_ipad.png */; };
+		1532286918C7D72F00B4B23B /* Email_Button_ipad_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 1532286818C7D72F00B4B23B /* Email_Button_ipad_big.png */; };
+		155750A818C90D39006B7814 /* iPad_Mail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 155750A718C90D39006B7814 /* iPad_Mail_button.png */; };
+		157552DA18CDF2ED00A5365C /* Dosing_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D118CDF2ED00A5365C /* Dosing_9.png */; };
+		157552DB18CDF2ED00A5365C /* Dosing_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D218CDF2ED00A5365C /* Dosing_8.png */; };
+		157552DC18CDF2ED00A5365C /* Dosing_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D318CDF2ED00A5365C /* Dosing_7.png */; };
+		157552DD18CDF2ED00A5365C /* Dosing_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D418CDF2ED00A5365C /* Dosing_6.png */; };
+		157552DE18CDF2ED00A5365C /* Dosing_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D518CDF2ED00A5365C /* Dosing_5.png */; };
+		157552DF18CDF2ED00A5365C /* Dosing_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D618CDF2ED00A5365C /* Dosing_4.png */; };
+		157552E018CDF2ED00A5365C /* Dosing_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D718CDF2ED00A5365C /* Dosing_3.png */; };
+		157552E118CDF2ED00A5365C /* Dosing_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D818CDF2ED00A5365C /* Dosing_2.png */; };
+		157552E218CDF2ED00A5365C /* Dosing_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 157552D918CDF2ED00A5365C /* Dosing_1.png */; };
+		1584C2C918C4BD0800C8E1E1 /* 13SUPRAX_APP_iPad_Screens_No_Buttons-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2B718C4BD0800C8E1E1 /* 13SUPRAX_APP_iPad_Screens_No_Buttons-13.png */; };
+		1584C2D318C4BD0800C8E1E1 /* initial_selection_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2C118C4BD0800C8E1E1 /* initial_selection_page.png */; };
+		1584C2D418C4BD0800C8E1E1 /* PI_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2C218C4BD0800C8E1E1 /* PI_page.png */; };
+		1584C2D518C4BD0800C8E1E1 /* iPad_Launch_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2C318C4BD0800C8E1E1 /* iPad_Launch_Image.png */; };
+		1584C2D618C4BD0800C8E1E1 /* SUPRAX_APP_iPad_App_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2C418C4BD0800C8E1E1 /* SUPRAX_APP_iPad_App_Button.png */; };
+		1584C2D718C4BD0800C8E1E1 /* Select_Range.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2C518C4BD0800C8E1E1 /* Select_Range.png */; };
+		1584C2D918C4BD0800C8E1E1 /* SUPRAX_APP_iPad_PI_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2C718C4BD0800C8E1E1 /* SUPRAX_APP_iPad_PI_Button.png */; };
+		1584C2DA18C4BD0800C8E1E1 /* Continue_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2C818C4BD0800C8E1E1 /* Continue_Button.png */; };
+		1584C2EF18C520DE00C8E1E1 /* blank_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2ED18C520DE00C8E1E1 /* blank_background.png */; };
+		1584C2F018C520DE00C8E1E1 /* background_with_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 1584C2EE18C520DE00C8E1E1 /* background_with_images.png */; };
+		1599CB9D18D205150066ED7E /* Dosing_Background_blank_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB8F18D205150066ED7E /* Dosing_Background_blank_1.png */; };
+		1599CB9E18D205150066ED7E /* PI_Text_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9018D205150066ED7E /* PI_Text_1.png */; };
+		1599CB9F18D205150066ED7E /* Dosing_9_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9118D205150066ED7E /* Dosing_9_1.png */; };
+		1599CBA018D205150066ED7E /* Dosing_7_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9218D205150066ED7E /* Dosing_7_1.png */; };
+		1599CBA118D205150066ED7E /* Dosing_6_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9318D205150066ED7E /* Dosing_6_1.png */; };
+		1599CBA218D205150066ED7E /* Dosing_8_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9418D205150066ED7E /* Dosing_8_1.png */; };
+		1599CBA318D205150066ED7E /* Dosing_5_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9518D205150066ED7E /* Dosing_5_1.png */; };
+		1599CBA418D205150066ED7E /* Dosing_4_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9618D205150066ED7E /* Dosing_4_1.png */; };
+		1599CBA518D205150066ED7E /* Dosing_3_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9718D205150066ED7E /* Dosing_3_1.png */; };
+		1599CBA618D205150066ED7E /* Dosing_2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9818D205150066ED7E /* Dosing_2_1.png */; };
+		1599CBA718D205150066ED7E /* Dosing_Background_images_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9918D205150066ED7E /* Dosing_Background_images_1.png */; };
+		1599CBA818D205150066ED7E /* Dosing_1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9A18D205150066ED7E /* Dosing_1_1.png */; };
+		1599CBA918D205150066ED7E /* PI_Background_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9B18D205150066ED7E /* PI_Background_1.png */; };
+		1599CBAA18D205150066ED7E /* Load_Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CB9C18D205150066ED7E /* Load_Screen.png */; };
+		1599CBAC18D20B7C0066ED7E /* Suprax_Link_Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 1599CBAB18D20B7C0066ED7E /* Suprax_Link_Text.png */; };
+		159C81ED18A6C0B3006192C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159C81EC18A6C0B3006192C3 /* Foundation.framework */; };
+		159C81EF18A6C0B3006192C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159C81EE18A6C0B3006192C3 /* CoreGraphics.framework */; };
+		159C81F118A6C0B3006192C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159C81F018A6C0B3006192C3 /* UIKit.framework */; };
+		159C81F718A6C0B3006192C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 159C81F518A6C0B3006192C3 /* InfoPlist.strings */; };
+		159C81F918A6C0B3006192C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C81F818A6C0B3006192C3 /* main.m */; };
+		159C81FD18A6C0B3006192C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C81FC18A6C0B3006192C3 /* AppDelegate.m */; };
+		159C820018A6C0B3006192C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159C81FE18A6C0B3006192C3 /* Main.storyboard */; };
+		159C820318A6C0B3006192C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C820218A6C0B3006192C3 /* ViewController.m */; };
+		159C820518A6C0B3006192C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159C820418A6C0B3006192C3 /* Images.xcassets */; };
+		159C820C18A6C0B3006192C3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159C820B18A6C0B3006192C3 /* XCTest.framework */; };
+		159C820D18A6C0B3006192C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159C81EC18A6C0B3006192C3 /* Foundation.framework */; };
+		159C820E18A6C0B3006192C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159C81F018A6C0B3006192C3 /* UIKit.framework */; };
+		159C821618A6C0B3006192C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 159C821418A6C0B3006192C3 /* InfoPlist.strings */; };
+		159C821818A6C0B3006192C3 /* DosingCalc_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C821718A6C0B3006192C3 /* DosingCalc_iPadTests.m */; };
+		159C822318A6C1AB006192C3 /* ViewController_dosing.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C822218A6C1AB006192C3 /* ViewController_dosing.m */; };
+		159C828518A6EBD9006192C3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159C828418A6EBD9006192C3 /* MessageUI.framework */; };
+		F83FA7E619EF1E3D00D35B79 /* Dosing_Background_images_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F83FA7E519EF1E3D00D35B79 /* Dosing_Background_images_1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		159C820F18A6C0B3006192C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159C81E118A6C0B3006192C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 159C81E818A6C0B3006192C3;
+			remoteInfo = DosingCalc_iPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1532286618C7D6F400B4B23B /* Email_Button_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Email_Button_ipad.png; sourceTree = "<group>"; };
+		1532286818C7D72F00B4B23B /* Email_Button_ipad_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Email_Button_ipad_big.png; sourceTree = "<group>"; };
+		155750A718C90D39006B7814 /* iPad_Mail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_Mail_button.png; sourceTree = "<group>"; };
+		157552D118CDF2ED00A5365C /* Dosing_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_9.png; sourceTree = "<group>"; };
+		157552D218CDF2ED00A5365C /* Dosing_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_8.png; sourceTree = "<group>"; };
+		157552D318CDF2ED00A5365C /* Dosing_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_7.png; sourceTree = "<group>"; };
+		157552D418CDF2ED00A5365C /* Dosing_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_6.png; sourceTree = "<group>"; };
+		157552D518CDF2ED00A5365C /* Dosing_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_5.png; sourceTree = "<group>"; };
+		157552D618CDF2ED00A5365C /* Dosing_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_4.png; sourceTree = "<group>"; };
+		157552D718CDF2ED00A5365C /* Dosing_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_3.png; sourceTree = "<group>"; };
+		157552D818CDF2ED00A5365C /* Dosing_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_2.png; sourceTree = "<group>"; };
+		157552D918CDF2ED00A5365C /* Dosing_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_1.png; sourceTree = "<group>"; };
+		1584C2B718C4BD0800C8E1E1 /* 13SUPRAX_APP_iPad_Screens_No_Buttons-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13SUPRAX_APP_iPad_Screens_No_Buttons-13.png"; sourceTree = "<group>"; };
+		1584C2C118C4BD0800C8E1E1 /* initial_selection_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = initial_selection_page.png; sourceTree = "<group>"; };
+		1584C2C218C4BD0800C8E1E1 /* PI_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_page.png; sourceTree = "<group>"; };
+		1584C2C318C4BD0800C8E1E1 /* iPad_Launch_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_Launch_Image.png; sourceTree = "<group>"; };
+		1584C2C418C4BD0800C8E1E1 /* SUPRAX_APP_iPad_App_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SUPRAX_APP_iPad_App_Button.png; sourceTree = "<group>"; };
+		1584C2C518C4BD0800C8E1E1 /* Select_Range.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Select_Range.png; sourceTree = "<group>"; };
+		1584C2C718C4BD0800C8E1E1 /* SUPRAX_APP_iPad_PI_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SUPRAX_APP_iPad_PI_Button.png; sourceTree = "<group>"; };
+		1584C2C818C4BD0800C8E1E1 /* Continue_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Continue_Button.png; sourceTree = "<group>"; };
+		1584C2ED18C520DE00C8E1E1 /* blank_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank_background.png; sourceTree = "<group>"; };
+		1584C2EE18C520DE00C8E1E1 /* background_with_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_with_images.png; sourceTree = "<group>"; };
+		1599CB8F18D205150066ED7E /* Dosing_Background_blank_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_Background_blank_1.png; sourceTree = "<group>"; };
+		1599CB9018D205150066ED7E /* PI_Text_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_Text_1.png; sourceTree = "<group>"; };
+		1599CB9118D205150066ED7E /* Dosing_9_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_9_1.png; sourceTree = "<group>"; };
+		1599CB9218D205150066ED7E /* Dosing_7_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_7_1.png; sourceTree = "<group>"; };
+		1599CB9318D205150066ED7E /* Dosing_6_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_6_1.png; sourceTree = "<group>"; };
+		1599CB9418D205150066ED7E /* Dosing_8_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_8_1.png; sourceTree = "<group>"; };
+		1599CB9518D205150066ED7E /* Dosing_5_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_5_1.png; sourceTree = "<group>"; };
+		1599CB9618D205150066ED7E /* Dosing_4_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_4_1.png; sourceTree = "<group>"; };
+		1599CB9718D205150066ED7E /* Dosing_3_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_3_1.png; sourceTree = "<group>"; };
+		1599CB9818D205150066ED7E /* Dosing_2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_2_1.png; sourceTree = "<group>"; };
+		1599CB9918D205150066ED7E /* Dosing_Background_images_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_Background_images_1.png; sourceTree = "<group>"; };
+		1599CB9A18D205150066ED7E /* Dosing_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_1_1.png; sourceTree = "<group>"; };
+		1599CB9B18D205150066ED7E /* PI_Background_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_Background_1.png; sourceTree = "<group>"; };
+		1599CB9C18D205150066ED7E /* Load_Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Load_Screen.png; sourceTree = "<group>"; };
+		1599CBAB18D20B7C0066ED7E /* Suprax_Link_Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suprax_Link_Text.png; sourceTree = "<group>"; };
+		159C81E918A6C0B3006192C3 /* DosingCalc_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DosingCalc_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		159C81EC18A6C0B3006192C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		159C81EE18A6C0B3006192C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		159C81F018A6C0B3006192C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		159C81F418A6C0B3006192C3 /* DosingCalc_iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DosingCalc_iPad-Info.plist"; sourceTree = "<group>"; };
+		159C81F618A6C0B3006192C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		159C81F818A6C0B3006192C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		159C81FA18A6C0B3006192C3 /* DosingCalc_iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DosingCalc_iPad-Prefix.pch"; sourceTree = "<group>"; };
+		159C81FB18A6C0B3006192C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		159C81FC18A6C0B3006192C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		159C81FF18A6C0B3006192C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		159C820118A6C0B3006192C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		159C820218A6C0B3006192C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		159C820418A6C0B3006192C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		159C820A18A6C0B3006192C3 /* DosingCalc_iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DosingCalc_iPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		159C820B18A6C0B3006192C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		159C821318A6C0B3006192C3 /* DosingCalc_iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DosingCalc_iPadTests-Info.plist"; sourceTree = "<group>"; };
+		159C821518A6C0B3006192C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		159C821718A6C0B3006192C3 /* DosingCalc_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DosingCalc_iPadTests.m; sourceTree = "<group>"; };
+		159C822118A6C1AB006192C3 /* ViewController_dosing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_dosing.h; sourceTree = "<group>"; };
+		159C822218A6C1AB006192C3 /* ViewController_dosing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_dosing.m; sourceTree = "<group>"; };
+		159C828418A6EBD9006192C3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F83FA7E519EF1E3D00D35B79 /* Dosing_Background_images_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosing_Background_images_1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		159C81E618A6C0B3006192C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159C828518A6EBD9006192C3 /* MessageUI.framework in Frameworks */,
+				159C81EF18A6C0B3006192C3 /* CoreGraphics.framework in Frameworks */,
+				159C81F118A6C0B3006192C3 /* UIKit.framework in Frameworks */,
+				159C81ED18A6C0B3006192C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159C820718A6C0B3006192C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159C820C18A6C0B3006192C3 /* XCTest.framework in Frameworks */,
+				159C820E18A6C0B3006192C3 /* UIKit.framework in Frameworks */,
+				159C820D18A6C0B3006192C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1584C2B618C4BCD700C8E1E1 /* Images_official */ = {
+			isa = PBXGroup;
+			children = (
+				1584C2B718C4BD0800C8E1E1 /* 13SUPRAX_APP_iPad_Screens_No_Buttons-13.png */,
+				1584C2C118C4BD0800C8E1E1 /* initial_selection_page.png */,
+				1584C2C218C4BD0800C8E1E1 /* PI_page.png */,
+				1584C2C318C4BD0800C8E1E1 /* iPad_Launch_Image.png */,
+				1584C2C418C4BD0800C8E1E1 /* SUPRAX_APP_iPad_App_Button.png */,
+				1584C2C518C4BD0800C8E1E1 /* Select_Range.png */,
+				1584C2C718C4BD0800C8E1E1 /* SUPRAX_APP_iPad_PI_Button.png */,
+				1584C2C818C4BD0800C8E1E1 /* Continue_Button.png */,
+			);
+			name = Images_official;
+			sourceTree = "<group>";
+		};
+		1599CB8E18D204FB0066ED7E /* LowDImages */ = {
+			isa = PBXGroup;
+			children = (
+				1584C2EE18C520DE00C8E1E1 /* background_with_images.png */,
+				1584C2ED18C520DE00C8E1E1 /* blank_background.png */,
+				157552D918CDF2ED00A5365C /* Dosing_1.png */,
+				157552D818CDF2ED00A5365C /* Dosing_2.png */,
+				157552D718CDF2ED00A5365C /* Dosing_3.png */,
+				157552D618CDF2ED00A5365C /* Dosing_4.png */,
+				157552D518CDF2ED00A5365C /* Dosing_5.png */,
+				157552D418CDF2ED00A5365C /* Dosing_6.png */,
+				157552D318CDF2ED00A5365C /* Dosing_7.png */,
+				157552D218CDF2ED00A5365C /* Dosing_8.png */,
+				157552D118CDF2ED00A5365C /* Dosing_9.png */,
+				1532286618C7D6F400B4B23B /* Email_Button_ipad.png */,
+				1532286818C7D72F00B4B23B /* Email_Button_ipad_big.png */,
+				155750A718C90D39006B7814 /* iPad_Mail_button.png */,
+			);
+			name = LowDImages;
+			sourceTree = "<group>";
+		};
+		159C81E018A6C0B3006192C3 = {
+			isa = PBXGroup;
+			children = (
+				159C822618A6C250006192C3 /* Dosing */,
+				159C81F218A6C0B3006192C3 /* DosingCalc_iPad */,
+				159C821118A6C0B3006192C3 /* DosingCalc_iPadTests */,
+				159C81EB18A6C0B3006192C3 /* Frameworks */,
+				159C81EA18A6C0B3006192C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		159C81EA18A6C0B3006192C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				159C81E918A6C0B3006192C3 /* DosingCalc_iPad.app */,
+				159C820A18A6C0B3006192C3 /* DosingCalc_iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		159C81EB18A6C0B3006192C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159C828418A6EBD9006192C3 /* MessageUI.framework */,
+				159C81EC18A6C0B3006192C3 /* Foundation.framework */,
+				159C81EE18A6C0B3006192C3 /* CoreGraphics.framework */,
+				159C81F018A6C0B3006192C3 /* UIKit.framework */,
+				159C820B18A6C0B3006192C3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		159C81F218A6C0B3006192C3 /* DosingCalc_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				159C81FB18A6C0B3006192C3 /* AppDelegate.h */,
+				159C81FC18A6C0B3006192C3 /* AppDelegate.m */,
+				159C820118A6C0B3006192C3 /* ViewController.h */,
+				159C820218A6C0B3006192C3 /* ViewController.m */,
+				159C820418A6C0B3006192C3 /* Images.xcassets */,
+				159C81F318A6C0B3006192C3 /* Supporting Files */,
+			);
+			path = DosingCalc_iPad;
+			sourceTree = "<group>";
+		};
+		159C81F318A6C0B3006192C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1599CBAB18D20B7C0066ED7E /* Suprax_Link_Text.png */,
+				159C81F418A6C0B3006192C3 /* DosingCalc_iPad-Info.plist */,
+				159C81FA18A6C0B3006192C3 /* DosingCalc_iPad-Prefix.pch */,
+				1584C2B618C4BCD700C8E1E1 /* Images_official */,
+				159C81F518A6C0B3006192C3 /* InfoPlist.strings */,
+				1599CB8E18D204FB0066ED7E /* LowDImages */,
+				159C81F818A6C0B3006192C3 /* main.m */,
+				1599CB9C18D205150066ED7E /* Load_Screen.png */,
+				1599CB9218D205150066ED7E /* Dosing_7_1.png */,
+				1599CB9418D205150066ED7E /* Dosing_8_1.png */,
+				1599CB9118D205150066ED7E /* Dosing_9_1.png */,
+				1599CB9018D205150066ED7E /* PI_Text_1.png */,
+				1599CB8F18D205150066ED7E /* Dosing_Background_blank_1.png */,
+				1599CB9B18D205150066ED7E /* PI_Background_1.png */,
+				1599CB9918D205150066ED7E /* Dosing_Background_images_1.png */,
+				F83FA7E519EF1E3D00D35B79 /* Dosing_Background_images_1.png */,
+				1599CB9A18D205150066ED7E /* Dosing_1_1.png */,
+				1599CB9818D205150066ED7E /* Dosing_2_1.png */,
+				1599CB9718D205150066ED7E /* Dosing_3_1.png */,
+				1599CB9618D205150066ED7E /* Dosing_4_1.png */,
+				1599CB9518D205150066ED7E /* Dosing_5_1.png */,
+				1599CB9318D205150066ED7E /* Dosing_6_1.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		159C821118A6C0B3006192C3 /* DosingCalc_iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				159C821718A6C0B3006192C3 /* DosingCalc_iPadTests.m */,
+				159C821218A6C0B3006192C3 /* Supporting Files */,
+			);
+			path = DosingCalc_iPadTests;
+			sourceTree = "<group>";
+		};
+		159C821218A6C0B3006192C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				159C821318A6C0B3006192C3 /* DosingCalc_iPadTests-Info.plist */,
+				159C821418A6C0B3006192C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		159C822618A6C250006192C3 /* Dosing */ = {
+			isa = PBXGroup;
+			children = (
+				159C822118A6C1AB006192C3 /* ViewController_dosing.h */,
+				159C822218A6C1AB006192C3 /* ViewController_dosing.m */,
+				159C81FE18A6C0B3006192C3 /* Main.storyboard */,
+			);
+			name = Dosing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		159C81E818A6C0B3006192C3 /* DosingCalc_iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159C821B18A6C0B3006192C3 /* Build configuration list for PBXNativeTarget "DosingCalc_iPad" */;
+			buildPhases = (
+				159C81E518A6C0B3006192C3 /* Sources */,
+				159C81E618A6C0B3006192C3 /* Frameworks */,
+				159C81E718A6C0B3006192C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DosingCalc_iPad;
+			productName = DosingCalc_iPad;
+			productReference = 159C81E918A6C0B3006192C3 /* DosingCalc_iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		159C820918A6C0B3006192C3 /* DosingCalc_iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159C821E18A6C0B3006192C3 /* Build configuration list for PBXNativeTarget "DosingCalc_iPadTests" */;
+			buildPhases = (
+				159C820618A6C0B3006192C3 /* Sources */,
+				159C820718A6C0B3006192C3 /* Frameworks */,
+				159C820818A6C0B3006192C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				159C821018A6C0B3006192C3 /* PBXTargetDependency */,
+			);
+			name = DosingCalc_iPadTests;
+			productName = DosingCalc_iPadTests;
+			productReference = 159C820A18A6C0B3006192C3 /* DosingCalc_iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		159C81E118A6C0B3006192C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lupin Pharmaceuticals";
+				TargetAttributes = {
+					159C81E818A6C0B3006192C3 = {
+						DevelopmentTeam = 87DKUX55Q9;
+					};
+					159C820918A6C0B3006192C3 = {
+						TestTargetID = 159C81E818A6C0B3006192C3;
+					};
+				};
+			};
+			buildConfigurationList = 159C81E418A6C0B3006192C3 /* Build configuration list for PBXProject "DosingCalc_iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 159C81E018A6C0B3006192C3;
+			productRefGroup = 159C81EA18A6C0B3006192C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				159C81E818A6C0B3006192C3 /* DosingCalc_iPad */,
+				159C820918A6C0B3006192C3 /* DosingCalc_iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		159C81E718A6C0B3006192C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1599CBA318D205150066ED7E /* Dosing_5_1.png in Resources */,
+				1599CB9D18D205150066ED7E /* Dosing_Background_blank_1.png in Resources */,
+				157552DA18CDF2ED00A5365C /* Dosing_9.png in Resources */,
+				1599CB9F18D205150066ED7E /* Dosing_9_1.png in Resources */,
+				159C820518A6C0B3006192C3 /* Images.xcassets in Resources */,
+				157552E018CDF2ED00A5365C /* Dosing_3.png in Resources */,
+				1599CBA218D205150066ED7E /* Dosing_8_1.png in Resources */,
+				1599CBA418D205150066ED7E /* Dosing_4_1.png in Resources */,
+				159C81F718A6C0B3006192C3 /* InfoPlist.strings in Resources */,
+				157552DB18CDF2ED00A5365C /* Dosing_8.png in Resources */,
+				1584C2DA18C4BD0800C8E1E1 /* Continue_Button.png in Resources */,
+				1599CBAA18D205150066ED7E /* Load_Screen.png in Resources */,
+				1599CBA618D205150066ED7E /* Dosing_2_1.png in Resources */,
+				1532286718C7D6F400B4B23B /* Email_Button_ipad.png in Resources */,
+				1584C2EF18C520DE00C8E1E1 /* blank_background.png in Resources */,
+				157552E218CDF2ED00A5365C /* Dosing_1.png in Resources */,
+				157552DF18CDF2ED00A5365C /* Dosing_4.png in Resources */,
+				1599CBA818D205150066ED7E /* Dosing_1_1.png in Resources */,
+				1532286918C7D72F00B4B23B /* Email_Button_ipad_big.png in Resources */,
+				1599CBAC18D20B7C0066ED7E /* Suprax_Link_Text.png in Resources */,
+				1584C2D318C4BD0800C8E1E1 /* initial_selection_page.png in Resources */,
+				F83FA7E619EF1E3D00D35B79 /* Dosing_Background_images_1.png in Resources */,
+				1584C2C918C4BD0800C8E1E1 /* 13SUPRAX_APP_iPad_Screens_No_Buttons-13.png in Resources */,
+				157552DC18CDF2ED00A5365C /* Dosing_7.png in Resources */,
+				1599CBA118D205150066ED7E /* Dosing_6_1.png in Resources */,
+				1599CB9E18D205150066ED7E /* PI_Text_1.png in Resources */,
+				157552DD18CDF2ED00A5365C /* Dosing_6.png in Resources */,
+				1584C2D618C4BD0800C8E1E1 /* SUPRAX_APP_iPad_App_Button.png in Resources */,
+				157552E118CDF2ED00A5365C /* Dosing_2.png in Resources */,
+				1599CBA918D205150066ED7E /* PI_Background_1.png in Resources */,
+				1599CBA018D205150066ED7E /* Dosing_7_1.png in Resources */,
+				1584C2F018C520DE00C8E1E1 /* background_with_images.png in Resources */,
+				157552DE18CDF2ED00A5365C /* Dosing_5.png in Resources */,
+				1584C2D518C4BD0800C8E1E1 /* iPad_Launch_Image.png in Resources */,
+				1584C2D418C4BD0800C8E1E1 /* PI_page.png in Resources */,
+				1584C2D918C4BD0800C8E1E1 /* SUPRAX_APP_iPad_PI_Button.png in Resources */,
+				155750A818C90D39006B7814 /* iPad_Mail_button.png in Resources */,
+				1599CBA518D205150066ED7E /* Dosing_3_1.png in Resources */,
+				1584C2D718C4BD0800C8E1E1 /* Select_Range.png in Resources */,
+				159C820018A6C0B3006192C3 /* Main.storyboard in Resources */,
+				1599CBA718D205150066ED7E /* Dosing_Background_images_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159C820818A6C0B3006192C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159C821618A6C0B3006192C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		159C81E518A6C0B3006192C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159C822318A6C1AB006192C3 /* ViewController_dosing.m in Sources */,
+				159C820318A6C0B3006192C3 /* ViewController.m in Sources */,
+				159C81FD18A6C0B3006192C3 /* AppDelegate.m in Sources */,
+				159C81F918A6C0B3006192C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159C820618A6C0B3006192C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159C821818A6C0B3006192C3 /* DosingCalc_iPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		159C821018A6C0B3006192C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 159C81E818A6C0B3006192C3 /* DosingCalc_iPad */;
+			targetProxy = 159C820F18A6C0B3006192C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		159C81F518A6C0B3006192C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159C81F618A6C0B3006192C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		159C81FE18A6C0B3006192C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159C81FF18A6C0B3006192C3 /* Base */,
+			);
+			name = Main.storyboard;
+			path = DosingCalc_iPad;
+			sourceTree = "<group>";
+		};
+		159C821418A6C0B3006192C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159C821518A6C0B3006192C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		159C821918A6C0B3006192C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3057044c-ce50-4481-834a-31309270634e";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		159C821A18A6C0B3006192C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "3057044c-ce50-4481-834a-31309270634e";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		159C821C18A6C0B3006192C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DosingCalc_iPad/DosingCalc_iPad-Prefix.pch";
+				INFOPLIST_FILE = "DosingCalc_iPad/DosingCalc_iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3057044c-ce50-4481-834a-31309270634e";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		159C821D18A6C0B3006192C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DosingCalc_iPad/DosingCalc_iPad-Prefix.pch";
+				INFOPLIST_FILE = "DosingCalc_iPad/DosingCalc_iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3057044c-ce50-4481-834a-31309270634e";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		159C821F18A6C0B3006192C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DosingCalc_iPad.app/DosingCalc_iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DosingCalc_iPad/DosingCalc_iPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DosingCalc_iPadTests/DosingCalc_iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		159C822018A6C0B3006192C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DosingCalc_iPad.app/DosingCalc_iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DosingCalc_iPad/DosingCalc_iPad-Prefix.pch";
+				INFOPLIST_FILE = "DosingCalc_iPadTests/DosingCalc_iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		159C81E418A6C0B3006192C3 /* Build configuration list for PBXProject "DosingCalc_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159C821918A6C0B3006192C3 /* Debug */,
+				159C821A18A6C0B3006192C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		159C821B18A6C0B3006192C3 /* Build configuration list for PBXNativeTarget "DosingCalc_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159C821C18A6C0B3006192C3 /* Debug */,
+				159C821D18A6C0B3006192C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		159C821E18A6C0B3006192C3 /* Build configuration list for PBXNativeTarget "DosingCalc_iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159C821F18A6C0B3006192C3 /* Debug */,
+				159C822018A6C0B3006192C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 159C81E118A6C0B3006192C3 /* Project object */;
+}
